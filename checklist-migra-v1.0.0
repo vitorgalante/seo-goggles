@@ -1,0 +1,61 @@
+1. **Verificação das Funcionalidades dos Plugins:**
+   - **Elementor:**
+     - **Regerar CSS:** Vá em **Elementor > Ferramentas > Regenerar CSS** para atualizar os estilos no novo subdomínio.
+     - **Sincronizar Biblioteca:** Em **Elementor > Ferramentas > Sincronizar Biblioteca**, para garantir que todos os templates e blocos estejam atualizados.
+     - **Testar Páginas e Templates:** Navegue por todas as páginas construídas com o Elementor para verificar se os layouts, widgets e estilos estão sendo exibidos corretamente.
+   - **ConvertPro:**
+     - **Testar Formulários e Pop-ups:** Assegure-se de que todos os formulários de inscrição, pop-ups e chamadas à ação estão funcionando e aparecendo como esperado.
+     - **Integrações de E-mail Marketing:** Verifique se as integrações com serviços de e-mail marketing (como MailChimp, ActiveCampaign, etc.) estão funcionando e que os leads estão sendo capturados corretamente.
+     - **Configurações de Domínio:** Alguns serviços podem exigir que você atualize o domínio nas configurações para permitir a comunicação adequada.
+
+2. **Atualização de URLs nas Configurações dos Plugins:**
+   - Verifique se há alguma referência ao antigo URL nas configurações dos plugins e atualize-as para o novo subdomínio.
+   - Isso é especialmente importante para plugins que utilizam URLs para recursos externos ou webhooks.
+
+3. **Teste de Funcionalidades Dependentes de Licença:**
+   - Certifique-se de que as funcionalidades premium habilitadas pelas licenças (como widgets Pro do Elementor ou módulos avançados do ConvertPro) estão ativas e operacionais.
+
+4. **Atualização de Chaves de API e Webhooks:**
+   - Se você utiliza chaves de API ou webhooks em conjunto com esses plugins, confirme que eles estão configurados corretamente para o novo subdomínio.
+   - Isso pode incluir serviços de terceiros como gateways de pagamento, ferramentas de análise ou plataformas de CRM.
+
+5. **Verificação de Compatibilidade:**
+   - Garanta que não haja conflitos entre o Elementor, ConvertPro e outros plugins instalados, especialmente após a migração.
+   - Atualize todos os plugins e o tema para as versões mais recentes para maximizar a compatibilidade e segurança.
+
+6. **Testes de Performance:**
+   - Utilize o modo de visualização do Elementor para verificar o desempenho e a renderização das páginas.
+   - No caso do ConvertPro, teste o impacto dos pop-ups e formulários na velocidade de carregamento das páginas.
+
+7. **Revisão de Configurações de SEO nos Plugins:**
+   - Se você utiliza plugins de SEO que interagem com o Elementor (como Yoast SEO ou Rank Math), verifique se os títulos, meta descrições e sitemaps estão corretos no novo subdomínio.
+   - Confirme que os formulários e pop-ups do ConvertPro não estão impedindo a indexação ou afetando negativamente a experiência do usuário.
+
+8. **Configuração de Cookies e Consentimento de Dados:**
+   - Assegure-se de que qualquer funcionalidade relacionada a cookies ou consentimento de dados esteja em conformidade com as leis aplicáveis (LGPD no Brasil) e funcionando corretamente após a migração.
+
+9. **Atualização de Links em Templates e Widgets:**
+   - Verifique se há links hard-coded em templates do Elementor ou nas configurações do ConvertPro que precisam ser atualizados para o novo subdomínio.
+
+10. **Teste de Integrações com Redes Sociais:**
+    - Se você utiliza widgets de redes sociais ou integrações que fazem parte do Elementor ou do ConvertPro, teste para garantir que estão funcionando e compartilhando conteúdo corretamente.
+
+11. **Monitoramento de Logs de Erro:**
+    - Após reativar as licenças e ajustar as configurações, monitore os logs de erro do servidor e do WordPress para identificar e resolver quaisquer problemas que possam surgir.
+
+12. **Educação da Equipe:**
+    - Se outras pessoas gerenciam o conteúdo ou a funcionalidade do site, informe-as sobre as mudanças e qualquer nova prática necessária no uso do Elementor e do ConvertPro no subdomínio.
+
+13. **Reindexação pelo Google:**
+    - Após garantir que tudo está funcionando, solicite a reindexação do site pelo Google através do **Google Search Console**, especialmente para páginas críticas.
+
+14. **Testes de Segurança:**
+    - Execute uma varredura de segurança para garantir que a migração e a reativação dos plugins não introduziram vulnerabilidades.
+
+15. **Feedback de Usuários:**
+    - Se possível, peça a alguns usuários ou membros da equipe para navegar no site e fornecer feedback sobre qualquer problema ou inconsistência encontrada.
+
+**Próximos Passos:**
+
+- **Documentação:** Anote todas as mudanças realizadas, incluindo a reativação das licenças e quaisquer ajustes nas configurações, para referência futura.
+- **Planejamento de Contingência:** Mantenha backups recentes e esteja preparado para reverter mudanças se algum problema crítico for identificado.
